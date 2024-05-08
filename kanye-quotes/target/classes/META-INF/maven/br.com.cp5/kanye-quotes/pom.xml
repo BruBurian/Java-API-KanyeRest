@@ -1,0 +1,31 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>br.com.cp5</groupId>
+  <artifactId>kanye-quotes</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+        
+<dependencies>
+  <!-- Dependência para consumir a API REST -->
+<dependency>
+    <groupId>org.apache.httpcomponents</groupId>
+    <artifactId>httpclient</artifactId>
+    <version>4.5.13</version>
+</dependency>
+  <!-- Dependência para trabalhar com JSON -->
+  <dependency>
+	<groupId>com.google.code.gson</groupId>
+	<artifactId>gson</artifactId>
+	<version>2.10.1</version>
+  </dependency>
+  <!-- Dependência para o driver JDBC do Oracle -->
+  <dependency>
+    <groupId>com.oracle.database.jdbc</groupId>
+    <artifactId>ojdbc11</artifactId>
+    <version>23.3.0.23.09</version>
+  </dependency>
+</dependencies>
+
+    
+  
+</project>
